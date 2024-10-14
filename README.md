@@ -42,4 +42,4 @@ environment variables -> create new:
 
 noresourcefoundexception no static resource
 
-  Descubrí que la aplicación estaba en un paquete y debería tener el mismo nivel que el main de Java.
+  Descubrí que la aplicación estaba en un paquete y debería tener el mismo nivel que el main de Java. Mete los controladores al mismo nivel de carpeta/paquetes
