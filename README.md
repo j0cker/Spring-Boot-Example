@@ -1,3 +1,5 @@
+//FOR GRADLE
+
 Execute following commands in the CMD:
 
 #will execute application.properties
@@ -7,6 +9,18 @@ Execute following commands in the CMD:
 #will execute application-ldev.properties
 
 ./gradlew bootRun --args='--spring.profiles.active=ldev'
+
+//FOR MAVEN
+
+in the pom.xml you need to add inside properties the next versions depending on the compatibility with your maven, JDK and spring boot versions:
+
+  <properties>
+    <java.version>21</java.version>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+  </properties>
+
+//general conf for spring boot in intelliJ
 
 Execute through IntelliJ
 
