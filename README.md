@@ -34,3 +34,12 @@ environment variables -> create new:
     name -> spring.profiles.active
     value -> ldev
 
+//for resource -> properties
+
+  you can change the extensions of .properties to .yaml to have jerarquies 
+
+//errors
+
+noresourcefoundexception no static resource
+
+  Descubrí que la aplicación estaba en un paquete y debería tener el mismo nivel que el main de Java.
