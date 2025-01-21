@@ -3,6 +3,7 @@
 Execute following commands in the CMD:
 
 #will execute application.properties
+
 #Execute it in the root folder in the terminal
 
 ./gradlew bootRun
