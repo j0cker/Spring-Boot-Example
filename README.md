@@ -6,6 +6,8 @@ Execute following commands in the CMD:
 
 #Execute it in the root folder of the project in the terminal
 
+#antes de ejecutar el comando debes tener JDK 17 al menos
+
 ./gradlew bootRun
 
 #will execute application-ldev.properties
