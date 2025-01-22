@@ -30,7 +30,7 @@ in the pom.xml you need to add inside properties the next versions depending on 
 
 //general conf for spring boot in intelliJ
 
-Execute through IntelliJ
+**Execute through IntelliJ**
 
 Run/Debug Configurations -> edit configurations -> plus button -> gradle -> gradle spring boot
 
@@ -38,9 +38,16 @@ environment variables -> create new:
     name -> spring.profiles.active
     value -> ldev
 
+**Execute through IntelliJ when no gradle SpringBoot is available**
+
+Run/Debug Configurations -> edit configurations -> plus button -> gradle 
+
+  Run: type -> bootRun
+  Environment: type -> --spring.profiles.active=ldev
+
 //for resource -> properties
 
-  you can change the extensions of .properties to .yaml to have jerarquies 
+  you can change the extensions of .properties to .yaml to have the format of jerarquies 
 
 //errors
 
