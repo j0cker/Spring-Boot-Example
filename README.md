@@ -1,4 +1,4 @@
-//FOR GRADLE
+**FOR GRADLE**
 
 Execute following commands in the CMD:
 
@@ -14,7 +14,7 @@ Execute following commands in the CMD:
 
 ./gradlew bootRun --args='--spring.profiles.active=ldev'
 
-//FOR MAVEN
+**FOR MAVEN**
 
 in the pom.xml you need to add inside properties the next versions depending on the compatibility with your maven, JDK and spring boot versions:
 
@@ -28,7 +28,7 @@ in the pom.xml you need to add inside properties the next versions depending on 
     
   &lt;/properties>
 
-//general conf for spring boot in intelliJ
+**general conf for spring boot in intelliJ**
 
 **Execute through IntelliJ**
 
@@ -45,11 +45,11 @@ Run/Debug Configurations -> edit configurations -> plus button -> gradle
   Run: type -> bootRun
   Environment: type -> --spring.profiles.active=ldev
 
-//for resource -> properties
+**for resource -> properties**
 
   you can change the extensions of .properties to .yaml to have the format of jerarquies 
 
-//errors
+**errors**
 
 **noresourcefoundexception no static resource**
 
