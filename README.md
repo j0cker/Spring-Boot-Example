@@ -18,7 +18,7 @@ Execute following commands in the CMD:
 
 in the pom.xml you need to add inside properties the next versions depending on the compatibility with your maven, JDK and spring boot versions:
 
-  &lt;properties>
+  <properties>
   
     <java.version>21</java.version>
     
@@ -26,7 +26,7 @@ in the pom.xml you need to add inside properties the next versions depending on 
     
     <maven.compiler.target>21</maven.compiler.target>
     
-  &lt;/properties>
+  </properties>
 
 **general conf for spring boot in intelliJ**
 
