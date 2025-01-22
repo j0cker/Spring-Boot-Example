@@ -44,11 +44,11 @@ environment variables -> create new:
 
 //errors
 
-noresourcefoundexception no static resource
+**noresourcefoundexception no static resource**
 
   Descubrí que la aplicación estaba en un paquete y debería tener el mismo nivel que el main de Java. Mete los controladores al mismo nivel de carpeta/paquetes
 
-intellij run configuration can't find spring boot class, annotations and imports are not recognized by IntelliJ
+**intellij run configuration can't find spring boot class, annotations and imports are not recognized by IntelliJ**
 
   I resolved it by deleting the auto-generated .iml file under classpath. in my case the mail was main.iml
 
